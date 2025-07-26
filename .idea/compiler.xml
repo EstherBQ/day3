@@ -13,12 +13,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cart-service" target="11" />
+      <module name="hm-api" target="11" />
       <module name="item-service (1)" target="17" />
       <module name="item-service (2)" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cart-service" options="-parameters" />
+      <module name="hm-api" options="-parameters" />
       <module name="hm-common" options="-parameters" />
       <module name="hm-service" options="-parameters" />
       <module name="item-service" options="-parameters" />
