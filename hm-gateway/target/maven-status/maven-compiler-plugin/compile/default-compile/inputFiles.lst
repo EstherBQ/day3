@@ -1,0 +1,6 @@
+D:\java\springCloud\code\day3\hm-gateway\src\main\java\com\hmall\gateway\config\JwtProperties.java
+D:\java\springCloud\code\day3\hm-gateway\src\main\java\com\hmall\gateway\filter\AuthGlobalFilter.java
+D:\java\springCloud\code\day3\hm-gateway\src\main\java\com\hmall\gateway\util\JwtTool.java
+D:\java\springCloud\code\day3\hm-gateway\src\main\java\com\hmall\gateway\config\AuthProperties.java
+D:\java\springCloud\code\day3\hm-gateway\src\main\java\com\hmall\gateway\GatewayApplication.java
+D:\java\springCloud\code\day3\hm-gateway\src\main\java\com\hmall\gateway\config\SecurityConfig.java
