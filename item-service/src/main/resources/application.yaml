@@ -1,5 +1,10 @@
 server:
   port: 8081
+feign:
+  okhttp:
+    enabled: true # 开启OKHttp连接池支持
+  sentinel:
+    enabled: true # 开启Feign对Sentinel的整合
 spring:
   application:
     name: item-service # 服务名称
@@ -43,6 +48,11 @@ knife4j:
         api-rule-resources:
           - com.hmall.item.controller
 hm:
+  swagger:
+    title: 用户服务接口文档
+    package: com.hmall.item.controller
+  db:
+    database: hm-item
   jwt:
     location: classpath:hmall.jks
     alias: hmall
@@ -55,3 +65,5 @@ hm:
       - /items/**
       - /hi
 # keytool -genkeypair -alias hmall -keyalg RSA -keypass hmall123 -keystore hmall.jks -storepass hmall123
+seata:
+  data-source-proxy-mode: XA
